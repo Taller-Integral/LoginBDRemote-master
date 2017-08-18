@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ramiromadraiga.loginbdremote">
+
+    <!-- Inicio Permisos requeridos -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- Final  Permisos requeridos -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ReadComments" />
+        <activity
+            android:name=".Register"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name" />
+        <!--
+ATTENTION: This was auto-generated to add Google Play services to your project for
+ App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".LoginEmpresas" />
+        <activity
+            android:name=".EmailEmpresas"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".MenuEmpresas"
+            android:label="@string/app_name" />
+        <activity android:name=".Fragment1" />
+        <activity android:name=".Fragment2" />
+        <activity android:name=".Fragment3" />
+        <activity android:name=".CrearEvento"></activity>
+    </application>
+
+</manifest>

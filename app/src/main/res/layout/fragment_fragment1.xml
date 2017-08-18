@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo4">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ttinka"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:text="@string/texto_evento1"
+        android:width="400dp"
+        android:textColor="@color/background_material_light"
+        tools:textStyle="bold"
+        android:height="300dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:elevation="3dp"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingBottom="20dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="@string/botom_bienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnIngresar"
+        android:background="@android:drawable/presence_online"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorHighlight="@color/abc_input_method_navigation_guard"
+        android:textColorHint="@color/common_google_signin_btn_text_light_pressed"
+        android:layout_marginBottom="11dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

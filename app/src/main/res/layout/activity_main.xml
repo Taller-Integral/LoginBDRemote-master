@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.inacap.t_tinka.myapplication.MainActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ViewFlipper
+            android:id="@+id/bckgrndViewFlipper1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@+id/bckgrndImageView8"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bar" />
+            <ImageView
+                android:id="@+id/bckgrndImageView7"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bip" />
+            <ImageView
+                android:id="@+id/bckgrndImageView6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/chica" />
+            <ImageView
+                android:id="@+id/bckgrndImageView5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/discoteca" />
+            <ImageView
+                android:id="@+id/bckgrndImageView4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/fiesta" />
+            <ImageView
+                android:id="@+id/bckgrndImageView3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/luces" />
+            <ImageView
+                android:id="@+id/bckgrndImageView2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/magia" />
+            <ImageView
+                android:id="@+id/bckgrndImageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/maxresdefault" />
+
+
+
+
+        </ViewFlipper>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:text="@string/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:elevation="0dp"
+            android:textAlignment="center"
+            tools:gravity="center"
+            android:ellipsize="none"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:minWidth="50dip"
+            android:minHeight="@android:dimen/app_icon_size"
+            android:maxWidth="@android:dimen/app_icon_size"
+            android:layout_centerHorizontal="false"
+            android:gravity="bottom|center_vertical|center_horizontal|clip_vertical|clip_horizontal"
+            android:layout_marginTop="350dp"
+            tools:text="@string/btn1"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColorLink="?android:attr/colorPressedHighlight"
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:keepScreenOn="false"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp" />
+
+        <Button
+            android:text="@string/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button6"
+            android:elevation="4dp"
+            android:textAlignment="center"
+            tools:gravity="center"
+            android:ellipsize="none"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignWithParentIfMissing="false"
+            tools:layout_alignWithParentIfMissing="false"
+            android:layout_centerVertical="false"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="50dp"
+            android:layout_marginStart="50dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

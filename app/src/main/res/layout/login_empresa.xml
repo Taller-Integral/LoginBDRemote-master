@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ttinka"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="@color/background_material_light"
+        android:textSize="24sp"
+        android:paddingRight="100dp"
+        android:layout_above="@+id/username"
+        android:layout_alignLeft="@+id/loginEmpresas"
+        android:layout_alignStart="@+id/loginEmpresas"
+        android:paddingEnd="100dp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="24sp"
+        android:textColor="@color/background_material_light"
+        android:layout_above="@+id/password"
+        android:layout_alignLeft="@+id/username"
+        android:layout_alignStart="@+id/username" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/background_material_light"
+        android:layout_above="@+id/loginEmpresas"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_alignStart="@+id/TextView01">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/loginEmpresas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        tools:ignore="HardcodedText"
+        android:layout_centerInParent="false"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:textSize="14sp"
+        android:layout_above="@+id/registerEmpresas"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:paddingEnd="100dp"
+        android:paddingStart="100dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/background_material_light"
+        android:paddingRight="100dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignStart="@+id/textView1"
+        android:paddingEnd="100dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/registerEmpresas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/degradado"
+        android:text="@string/btn_link_to_register_empresa"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="12sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo4">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ttinka"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Usuarios que aún no \n compran entradas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_below="@+id/button10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10"
+        android:background="@drawable/icons8_servicio_de_valet_40"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="45dp"
+        android:paddingBottom="40dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button11"
+        android:background="@drawable/icons8_banco_40"
+        android:layout_marginTop="15dp"
+        android:paddingBottom="40dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/button10"
+        android:layout_alignStart="@+id/button10" />
+
+    <TextView
+        android:text="Comentarios del Evento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_below="@+id/button12"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button12"
+        android:background="@drawable/icons8_collaboration_40"
+        android:paddingBottom="40dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/button11"
+        android:layout_alignStart="@+id/button11" />
+
+    <TextView
+        android:text="Entradas Vendidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_below="@+id/button11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp" />
+
+
+</RelativeLayout>

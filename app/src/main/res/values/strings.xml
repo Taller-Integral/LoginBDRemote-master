@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Tags">
+        <item>HTML</item>
+        <item>CSS</item>
+        <item>JavaScript</item>
+        <item>Angular JS</item>
+        <item>Python</item>
+        <item>Ruby on Rails</item>
+    </string-array>
+
+    <string name="drawer_open">Abrir navigation drawer</string>
+    <string name="drawer_close">Cerrar navigation drawer</string>
+    <string name="headlines">Encabezados de</string>
+
+    <string name="my_text">
+        Texto que se envia vía correo.
+    </string>
+    <string name="compose_email">Redactar Email</string>
+    <string name="app_name">Login T-tinka </string>
+    <string name="bienvenida" style="text-align:justify;">Bienvenido a tu aplicativo T-tinka. \n  Podrás generar eventos, \n ver estadísticas, \n revisar el estado de tus eventos creados.
+ Mediante la geolocalización podrás referenciar tu evento para la ubicación exacta de tu local. \n También puedes crear las entradas con todos sus parámetros. \n
+T-tinka te dá la bienvenida y agradece tu preferencia. \n De la mano con T-tinka lograrás potenciar tu negocio.
+" </string>
+    <string name="hello">REGISTRO</string>
+    <string name="bienvenido"></string>
+    <string name="email_name">ttinkacontacto@gmail.com</string>
+    <string name="action_settings">Settings</string>
+    <string name="botom_bienvenida">Ingresar</string>
+    <string name="texto_evento">En minutos y de forma muy sencilla, podrás tener tu evento en línea en T-Tinka.
+    Pero antes , algunos consejos:</string>
+    <string name="texto_evento1">En minutos y de forma muy sencilla, podrás tener tu evento en línea en T-Tinka. \n
+    Pero antes, algunos consejos: \n Define un Titulo llamativo (no más de 60 caracteres) a tu evento, que capte la atención de tus clientes. \n
+    En el primer recuadro de Descripción, escribe un párrafo potente que describa tu actividad. \n
+    Usa una Imagen llamativa y de buena calidad (700 x 438 pixeles) será lo primero que perciban los usuarios sobre tu evento.
+</string>
+    <string name="hint_email">Correo</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment1">Fragment 1</string>
+    <string name="fragment3">Fragment 3</string>
+    <string name="fragment2">Fragment 2</string>
+
+    <string name="hint_password">Contraseña</string>
+
+    <string name="hint_name">Nombre</string>
+
+    <string name="btn_login">LOGIN</string>
+
+    <string name="btn_register">REGISTRAR</string>
+
+    <string name="btn_link_to_register">No eres miembro? Regístrate Ahora.</string>
+    <string name="btn_link_to_register_empresa">No eres miembro? Contáctanos</string>
+
+    <string name="btn_link_to_login">Ya estoy registrado! Iniciar Sesion.</string>
+
+    <string name="welcome">BIENVENIDO</string>
+
+    <string name="btn_logout">SALIR</string>
+
+    <string name="name">Nombre</string>
+
+
+    <string name="btn1">Acceder como Empresa</string>
+    <string name="btn2">Acceder como Usuario</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_desplegable_empresa">DesplegableEmpresa</string>
+
+    <string name="title_section1">Crear Evento</string>
+    <string name="title_section2">Estadísticas</string>
+    <string name="title_section3">Ver Estado de Eventos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="otras_opciones">Otras opciones</string>
+    <string name="opcion_1">Opción 1</string>
+    <string name="opcion_2">Opción 2</string>
+    <string name="usuario">Bienvenido...Víctor</string>
+    <string name="menu_abierto">Menu Abierto</string>
+    <string name="menu_cerrado">Menu Cerrado</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>
